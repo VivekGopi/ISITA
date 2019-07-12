@@ -1,0 +1,23 @@
+{% extends 'layout.html' %}
+{% block body %}
+<p>Please upload any document in the jpg format and choose which class you want to predict for</p>
+
+<p>
+  This is a simple flask app that classifies if a document uploaded belongs to the below classes:<br>
+  1) W9 forms
+  2) Checks
+</p>
+
+
+<form action="/" method="post" enctype="multipart/form-data">
+  <input type="file" name="image" id="image">
+  <input class="pure-button pure-button-primary" type="submit" value="Submit"> <br><br><br>
+  <p> Please select class to validate </p>
+  <div class="radio">
+    <label><input type="radio" name="options" value = "W9" required="required"> W9 Forms</label><br>
+  <div>
+  <div class="radio">
+    <label><input type="radio" name="options" value = "VC" required="required"> Checks</label><br>
+  <div>
+</form>
+{% endblock %}
