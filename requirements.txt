@@ -12,7 +12,7 @@ Jinja2==2.9.6
 Markdown==2.6.9
 MarkupSafe==1.0
 olefile==0.44
-Pillow==5.3.0
+Pillow==6.2.0
 pip
 setuptools==36.5.0
 torch
