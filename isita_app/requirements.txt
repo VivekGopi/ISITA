@@ -8,7 +8,7 @@ h5py==2.8.0
 html5lib==0.9999999
 intel-openmp==2018.0.0
 itsdangerous==0.24
-Jinja2==2.9.6
+Jinja2==2.11.3
 Markdown==2.6.9
 MarkupSafe==1.0
 olefile==0.44
