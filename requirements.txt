@@ -5,7 +5,7 @@ bleach==1.5.0
 click==6.7
 Flask==0.12.2
 h5py==2.8.0
-html5lib==0.9999999
+html5lib==0.99999999
 intel-openmp==2018.0.0
 itsdangerous==0.24
 Jinja2==2.9.6
